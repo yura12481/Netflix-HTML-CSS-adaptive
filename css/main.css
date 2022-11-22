@@ -328,7 +328,7 @@ body {
     }
 
     .netflix__films-img-two {
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
     }
     
     .netflix__films-img {
@@ -397,7 +397,7 @@ body {
     }
 
     .question__email-text {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .header {
@@ -630,7 +630,7 @@ body {
     }
 
     .header {
-        height: 485px;
+        height: 450px;
     }
 
     .header__info {
