@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Header content-->
+    <header class="header">
+        <div class="header__nav">
+            <img class="header__logo" src="img/header-logo.png" alt="netflix logo">
+            <select name="select" class="header__lang">
+                <option value="ua" selected>Українська</option>
+                <option value="eng">English</option>
+                <option value="pl">Poland</option>
+            </select>
+            <button class="header__btn" type="submit">
+                Увійти
+            </button>
+        </div>
+        <section class="header__info">
+            <div class="container">
+                <div class="header__items">
+                    <h1 class="header__title">
+                        Фільми, серіали й інший контент без обмежень.
+                    </h1>
+                    <h3 class="header__subtitle">
+                        Дивіться будь-де. Скасувати підписку можна будь-коли.
+                    </h3>
+                    <p class="header__text">
+                        Готові до перегляду? Введіть адресу електронної пошти, щоб оформити або поновити підписку.
+                    </p>
+                    <form class="header__input">
+                        <input type="email" placeholder="Адреса електронної пошти" class="header__email">
+                        <button class="header__email-btn">
+                            Почати >
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div class="netflix__films">
+        <div class="container">
+            <div class="netflix__items">
+                <div class="netflix__text">
+                    <h1 class="netflix__title">Дивіться на телевізорі.</h1>
+                    <h3 class="netflix__subtitle">Дивіться на Smart TV, Playstation, Xbox, Chromecast, Apple TV,
+                        Blu-ray-програвачах тощо.</h3>
+                </div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""
+                    class="netflix__films-img">
+            </div>
+        </div>
+    </div>
+    <div class="netflix__films">
+        <div class="container">
+            <div class="netflix__items">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                    alt="" class="netflix__films-img-two">
+                <div class="netflix__text">
+                    <h1 class="netflix__title">Завантажуйте контент і дивіться його офлайн.</h1>
+                    <h3 class="netflix__subtitle">Легко зберігайте улюблені телесеріали й фільми, щоб дивитися їх
+                        будь-коли.</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="netflix__films">
+        <div class="container">
+            <div class="netflix__items">
+                <div class="netflix__text">
+                    <h1 class="netflix__title">Дивіться будь-де.</h1>
+                    <h3 class="netflix__subtitle">Дивіться фільми й телесеріали без обмежень на смартфоні, планшеті,
+                        ноутбуці й телевізорі без доплат.</h3>
+                </div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+                    alt="" class="netflix__films-img">
+            </div>
+        </div>
+    </div>
+    <div class="netflix__films">
+        <div class="container">
+            <div class="netflix__items">
+                <img src="https://occ-0-6308-1490.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABdgk9jscJe4n9LpWehWGgwgUlXYrqKzVa7ZHILbxDPUd1OBEJUtRNbjKj4FAPd77BKNFanCU8vg0adazeBrmGtcK6X3I9SvBiwD2.png?r=13e"
+                    alt="" class="netflix__films-img">
+                <div class="netflix__text">
+                    <h1 class="netflix__title">Створюйте профілі для дітей.</h1>
+                    <h3 class="netflix__subtitle">Ваші діти зможуть мандрувати країною фантазії разом з улюбленими
+                        персонажами в спеціальних профілях, які входять у вартість підписки.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Question-->
+    <section class="question">
+        <div class="container">
+            <h1 class="question__title">Поширені запитання</h1>
+            <div class="question__items">
+                <button class="question__item-btn">Що таке Netflix?</button>
+                <button class="question__item-btn">Cкільки коштує підписка Netflix?</button>
+                <button class="question__item-btn">Де можна дивитися контент?</button>
+                <button class="question__item-btn">Як скасувати підписку?</button>
+                <button class="question__item-btn">Що можна подивитися на Netflix?</button>
+                <button class="question__item-btn">Netflix підходить для дітей?</button>
+                <button class="question__item-btn">Чому відображається текст цією мовою?</button>
+                <p class="question__email-text">Готові до перегляду? Введіть адресу електронної пошти, щоб оформити або
+                    поновити <br> підписку.</p>
+                <form class="question__input">
+                    <input type="email" placeholder="Адреса електронної пошти" class="question__email">
+                    <button class="question__email-btn">
+                        Почати >
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">
+                <span>Маєте запитання? Зателефонуйте за номером <a class="footer__call" href="#">0800-509-416</a></span>
+            </div>
+            <div class="footer__items-block">
+                <div class="footer__item">
+                    <span>
+                        <a href="#">Поширені запитання</a>
+                    </span>
+                    <span>
+                        <a href="#">Зв’язки з інвесторами</a>
+                    </span>
+                    <span>
+                        <a href="#">Конфіденційність</a>
+                    </span>
+                    <span>
+                        <a href="#">Перевірка швидкості</a>
+                    </span>
+                </div>
+                <div class="footer__item">
+                    <span>
+                        <a href="#">Довідковий центр</a>
+                    </span>
+                    <span>
+                        <a href="#">Вакансії</a>
+                    </span>
+                    <span>
+                        <a href="#">Налаштування файлів cookie</a>
+                    </span>
+                    <span>
+                        <a href="#">Юридичні повідомлення</a>
+                    </span>
+                </div>
+                <div class="footer__item">
+                    <span>
+                        <a href="#">Обліковий запис</a>
+                    </span>
+                    <span>
+                        <a href="#">Способи перегляду</a>
+                    </span>
+                    <span>
+                        <a href="#">Корпоративна інформація</a>
+                    </span>
+                    <span>
+                        <a href="#">Тільки на Netflix</a>
+                    </span>
+                </div>
+                <div class="footer__item">
+                    <span>
+                        <a href="#">Медіацентр</a>
+                    </span>
+                    <span>
+                        <a href="#">Умови використання</a>
+                    </span>
+                    <span>
+                        <a href="#">Зв’язатися з нами</a>
+                    </span>
+                </div>
+            </div>
+            <select name="select" class="footer__lang">
+                <option value="ua" selected>Українська</option>
+                <option value="eng">English</option>
+                <option value="pl">Poland</option>
+            </select>
+            <p class="footer__ua">Netflix Україна</p>
+        </div>
+    </footer>
+</body>
+
+</html>
