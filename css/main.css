@@ -17,6 +17,7 @@
     font-weight: 400;
     font-style: normal;
   }
+
 *,
 *::after,
 *::before {
@@ -26,8 +27,8 @@
 body {
     font-family: 'Helvetica Neue';
     font-weight: 400;
-   color: #fff;
-   background: #000;
+    color: #fff;
+    background: #000;
 }
 
 .container {
@@ -53,10 +54,12 @@ body {
     margin: 0 56px;
     padding-top: 28px;
 }
+
 .header__logo {
    width: 134px;
    height: 36px;
 }
+
 .header__lang {
     margin-left: 75%;
     background-color: #000;
@@ -86,12 +89,14 @@ body {
     padding: 75px 0;
     margin: 0 51px;
 }
+
 .header__items {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .header__title {
     font-weight: 500;
     font-size: 64px;
@@ -100,6 +105,7 @@ body {
     min-width: 330px;
     margin: 0 155px;
 }
+
 .header__subtitle {
     font-weight: 400;
     font-size: 26px;
@@ -108,6 +114,7 @@ body {
     margin: 16px 155px;
     min-width: 330px;
 }
+
 .header__text {
     font-family: 'Helvetica Neue';
     font-weight: 400;
@@ -117,19 +124,20 @@ body {
     max-width: 900px;
     padding: 13.6px 47.5px 20px 47.5px;
     min-width: 330px;
-} 
+}
+
 .header__email {
     padding: 10px;
     width: 450px;
     border: 1px solid #8c8c8c;
 }
+
 .header__email-btn {
     background: red;
     padding: 18px 26px;
     color: #fff;
     text-align: center;
 }
-
 
 .header__input {
     display: flex;
@@ -140,9 +148,10 @@ body {
 
     /*Header End */
     /*Netflix Films start */
+
 .netflix__films {
     border-bottom: 8px solid #222;
-    padding: 70px 45px
+    padding: 70px 45px;
 }
 
 .netflix__items {
@@ -161,7 +170,6 @@ body {
     max-width: 526px;
     padding-bottom: 27px;
 }
-
 
 .netflix__subtitle {
     font-family: 'Helvetica Neue';
@@ -183,6 +191,7 @@ body {
 
     /* Netflix Films end */
     /* Question start */
+
 .question {
     padding: 70px 0;
     border-bottom: 8px solid #222;
@@ -194,14 +203,13 @@ body {
     line-height: 1.1;
     color: #fff;
     text-align: center;
-    margin-bottom: 40px
+    margin-bottom: 40px;
 }
 
 .question__items {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .question__item-btn {
@@ -214,14 +222,14 @@ body {
     padding: 28px 57px 20px 31px;
     margin-bottom: 8px;
     text-align: start;
-    width: 77%
+    width: 77%;
 }
 
 .question__email-text {
     font-weight: 400;
     font-size: 23px;
     color: #fff;
-    max-width: 900px;
+    max-width: 931px;
     text-align: center;
     margin: 50px 0 20px 0;
 }
@@ -231,10 +239,12 @@ body {
    flex-wrap: wrap;
    justify-content: center;
 }
+
 .question__email {
     padding: 15px;
     width: 450px;
 }
+
 .question__email-btn {
     background: red;
     padding: 20px;
@@ -243,6 +253,7 @@ body {
 
     /* Question end */
     /* Footer Start */
+
 .footer__text {
     width: 100%;
     color: #737373;
@@ -268,7 +279,6 @@ body {
     padding-bottom: 33px;
 }
 
-
 .footer__call {
     color: #737373;
     text-decoration: none;
@@ -286,7 +296,6 @@ body {
 
 .footer__item a:hover {
     border-bottom: 1px solid #737373;
-  
 }
 
 .footer__item span {
@@ -300,7 +309,7 @@ body {
     padding: 12px 26px 12px 50px;
 }
 
-.footer__lang:hover{
+.footer__lang:hover {
     border: 1px solid #fff;
 } 
 
@@ -312,16 +321,20 @@ body {
 
     /* Footer End */
     /* Media  Start*/
+
 @media (max-width: 1333px) {
     .netflix__items {
         justify-content: center;
     }
+
     .netflix__films-img-two {
         margin-bottom: 20px;
     }
+    
     .netflix__films-img {
         margin-bottom: 20px;
     }
+
     .header__btn {
         padding: 7px 8px;
         margin-left: 10px;
@@ -338,6 +351,7 @@ body {
         font-size: 45px;
         line-height: 50px;
     }
+
     .header__subtitle {
         font-size: 21px;
     }
@@ -354,6 +368,7 @@ body {
         padding: 18px 57px 17px 31px;
         font-size: 22px;
     }
+
     .header__nav {
         margin: 0 100px;
     }
@@ -374,17 +389,21 @@ body {
     }
 
     .header__email-btn {
-        padding: 10px
+        padding: 10px;
     }
+
     .question__title {
         font-size: 60px;
     }
+
     .question__email-text {
         font-size: 20px;
     }
+
     .header {
         height: 750px;
     }
+
     .header__info {
         padding: 140px;
     }
@@ -401,6 +420,7 @@ body {
         margin-left: 15px;
         padding: 3px 6px;
     }
+
     .header__email {
         padding: 10px;
         width: 385px;
@@ -415,10 +435,12 @@ body {
         font-size: 18px;
         margin: 14px 0;
     }
+
     .header__text {
         font-size: 18px;
         padding-bottom: 15px;
     }
+
     .header {
         height: 720px;
     }
@@ -426,15 +448,18 @@ body {
 
 @media (max-width: 740px) {
     .netflix__films-img {
-        width: 500px
+        width: 500px;
     }
+
     .netflix__films-img-two {
         width: 500px;
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
+
     .header {
         height: 585px;
     }
+
     .header__info {
         padding: 80px;
     }
@@ -445,6 +470,7 @@ body {
         padding: 3px 2px;
         margin-left: 65%;
     }
+
     .header__btn {
         margin-left: 10px;
     } 
@@ -460,24 +486,31 @@ body {
         padding: 7px;
         width: 325px;
     }
+
     .header__lang {
         margin-left: 60%;
-    } 
+    }
+
     .netflix__title {
         font-size: 50px;
     }
+
     .netflix__subtitle {
         font-size: 27px;
     } 
+
     .netflix__films-img {
         width: 450px;
     }
+
     .netflix__films-img-two {
         width: 450px;
     }
+
     .question__title {
         font-size: 50px;
     }
+
     .question__item-btn {
         width: 100%;
     }
@@ -487,28 +520,34 @@ body {
     .netflix__films-img {
         width: 350px;
     }
+
     .netflix__films-img-two {
         width: 350px;
     }
+
     .netflix__title {
         font-size: 40px;
     }
+
     .netflix__subtitle {
         font-size: 23px;
     }
+
     .header__lang {
         margin-left: 50%;
     }
+
     .question > .container {
         padding: 0;
     }
+
     .header {
         height: 510px;
     }
+
     .header__info {
         padding: 45px; 
     }
-
 }
 
 @media (max-width: 485px) {
@@ -516,24 +555,30 @@ body {
         padding: 10px;
         width: 100%;
     }
+
     .question__email-btn {
         padding: 11px;
     }
+
     .question__item-btn {
         padding: 10px 57px 10px 31px;
         font-size: 18px;
     }
+
     .question__title {
         font-size: 45px;
     }
+
     .question__email-text {
         margin: 25px 0 20px 0;
     }
+
     .header__lang {
         margin-left: 50%;
         padding: 5px 5px 6px 10px;
-        font-size: 12px
+        font-size: 12px;
     }
+
     .header__btn {
         font-size: 12px;
     } 
@@ -543,60 +588,72 @@ body {
     .netflix__films-img {
         width: 300px;
     }
+
      .netflix__films-img-two {
         width: 300px;
     }
+
     .netflix__title {
         font-size: 1.625rem;
         line-height: 1.1;
     }
+
     .netflix__subtitle {
         font-size: 18px;
     }
+
     .header__email {
         padding: 5px;
         width: 260px;
     }
+
     .header__email-btn {
-        padding: 7px
+        padding: 7px;
     }
+
     .header__lang {
         margin-left: 0%;
-        padding: 1px 1px 1px 1px
+        padding: 1px 1px 1px 1px;
     }
+
     .header__btn {
         padding: 1px 6px;
     }
+
     .header__nav {
         padding: 0;
         margin: 0 auto;
     }
+
     .footer__lang {
         padding: 1px;
     }
+
     .header {
         height: 485px;
     }
+
     .header__info {
         padding: 40px;
     }
+
     .header__subtitle {
         font-size: 17px;
     }
-
 }
 
 @media (max-width: 340px) {
     .netflix__films-img {
         width: 230px;
     }
+
     .netflix__films-img-two {
         width: 230px;
     }
+
     .header__email {
         width: 300px;
     }
-    
 }
 
     /* Media End /*
